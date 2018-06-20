@@ -1,0 +1,761 @@
+[ 2018-06-20T20:10:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004550s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2018-06-20T20:24:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008906s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2018-06-20T20:25:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.008794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010602s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2018-06-20T20:25:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.008025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009580s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2018-06-20T20:26:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004072s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2018-06-20T20:28:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009301s ]
+
+[ 2018-06-20T20:29:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005225s ]
+
+[ 2018-06-20T20:47:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002544s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.014426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017304s ]
+
+[ 2018-06-20T20:47:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005526s ]
+
+[ 2018-06-20T20:47:19+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002917s ]
+
+[ 2018-06-20T20:47:45+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005274s ]
+
+[ 2018-06-20T20:47:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005237s ]
+
+[ 2018-06-20T20:48:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001774s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.010276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012305s ]
+
+[ 2018-06-20T20:48:01+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002554s ]
+
+[ 2018-06-20T20:48:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005168s ]
+
+[ 2018-06-20T20:48:25+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003023s ]
+
+[ 2018-06-20T20:48:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+
+[ 2018-06-20T20:48:58+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004823s ]
+
+[ 2018-06-20T20:49:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005356s ]
+
+[ 2018-06-20T20:49:33+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006247s ]
+
+[ 2018-06-20T20:52:43+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005314s ]
+
+[ 2018-06-20T20:52:44+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004139s ]
+
+[ 2018-06-20T21:00:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002269s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.012827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015379s ]
+
+[ 2018-06-20T21:01:29+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.008412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010057s ]
+ERR: Call to a member function prepare() on string
+
+[ 2018-06-20T21:01:48+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009593s ]
+
+[ 2018-06-20T21:01:49+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002811s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.008523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011604s ]
+
+[ 2018-06-20T21:06:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002411s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.013273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015981s ]
+ERR: 1146:Table 'yingbt.tw_config' doesn't exist
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `tw_config`
+ERR: 1146:Table 'yingbt.tw_config' doesn't exist
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `tw_config`
+
+[ 2018-06-20T21:08:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004334s ]
+SQL: SHOW COLUMNS FROM `tw_config` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0529s ]
+SQL: SHOW COLUMNS FROM `tw_coin` [ RunTime:0.0519s ]
+SQL: SELECT * FROM `tw_coin` WHERE `status` = 1  [ RunTime:0.0270s ]
+ERR: 1146:Table 'yingbt.tw_market' doesn't exist
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `tw_market`
+ERR: 1146:Table 'yingbt.tw_market' doesn't exist
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `tw_market`
+
+[ 2018-06-20T21:11:54+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004359s ]
+SQL: SHOW COLUMNS FROM `tw_config` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `tw_coin` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `tw_coin` WHERE `status` = 1  [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `tw_market` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tw_market` WHERE `status` = 1  [ RunTime:0.0195s ]
+SQL: SHOW COLUMNS FROM `tw_daohang` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tw_daohang` WHERE `status` = 1 ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tw_article_type` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 4   [ RunTime:0.0084s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'Kline' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_article` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'Kline' LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'aboutus' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'aboutus' LIMIT 5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_link` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tw_link` WHERE `status` = 1 AND `look_type` = 1 ORDER BY sort asc ,id desc  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tw_article` WHERE `type` = 'notice' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `name` = 'notice' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tw_adver` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `tw_adver` WHERE `status` = 1 AND `look` = 0 AND `fenlei` = 0 ORDER BY id asc  [ RunTime:0.0121s ]
+NOTIC: [8] Undefined variable: market F:\xampp\htdocs\myWork\changnei\Application\Home\Controller\IndexController.class.php Á¨¨ 109 Ë°å.
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='ÂÆòÊñπÂÖ¨Âëä' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='notice' and status=1 ) ORDER BY id desc LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='Êñ∞ÈóªËµÑËÆØ' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='news' and status=1 ) ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='‰∫§ÊòìÂÖ•Èó®' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='firstclass' and status=1 ) ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.009199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.009290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2018-06-20T21:11:54+08:00 ] 127.0.0.1 /index.php?l=zh-cn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003940s ]
+SQL: SHOW COLUMNS FROM `tw_config` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tw_coin` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tw_coin` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_market` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tw_market` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_article_type` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'Kline' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_article` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'Kline' LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'aboutus' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'aboutus' LIMIT 5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_link` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tw_link` WHERE `status` = 1 AND `look_type` = 1 ORDER BY sort asc ,id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article` WHERE `type` = 'notice' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `name` = 'notice' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tw_adver` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tw_adver` WHERE `status` = 1 AND `look` = 0 AND `fenlei` = 0 ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: market F:\xampp\htdocs\myWork\changnei\Application\Home\Controller\IndexController.class.php Á¨¨ 109 Ë°å.
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='ÂÆòÊñπÂÖ¨Âëä' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='notice' and status=1 ) ORDER BY id desc LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='Êñ∞ÈóªËµÑËÆØ' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='news' and status=1 ) ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='‰∫§ÊòìÂÖ•Èó®' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='firstclass' and status=1 ) ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2018-06-20T21:11:55+08:00 ] 127.0.0.1 /Public/images/favor.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002166s ]
+
+[ 2018-06-20T21:12:04+08:00 ] 127.0.0.1 /index.php?l=zh-cn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003959s ]
+SQL: SHOW COLUMNS FROM `tw_config` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tw_coin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tw_coin` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_market` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `tw_market` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_article_type` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'Kline' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_article` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'Kline' LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'aboutus' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'aboutus' LIMIT 5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_link` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tw_link` WHERE `status` = 1 AND `look_type` = 1 ORDER BY sort asc ,id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article` WHERE `type` = 'notice' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `name` = 'notice' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_adver` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tw_adver` WHERE `status` = 1 AND `look` = 0 AND `fenlei` = 0 ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: market F:\xampp\htdocs\myWork\changnei\Application\Home\Controller\IndexController.class.php Á¨¨ 109 Ë°å.
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='ÂÆòÊñπÂÖ¨Âëä' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='notice' and status=1 ) ORDER BY id desc LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='Êñ∞ÈóªËµÑËÆØ' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='news' and status=1 ) ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='‰∫§ÊòìÂÖ•Èó®' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='firstclass' and status=1 ) ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2018-06-20T21:12:04+08:00 ] 127.0.0.1 /Public/images/favor.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002576s ]
+
+[ 2018-06-20T21:12:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003998s ]
+SQL: SHOW COLUMNS FROM `tw_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tw_coin` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tw_coin` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_market` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `tw_market` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_article_type` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'Kline' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_article` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'Kline' LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'aboutus' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'aboutus' LIMIT 5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_link` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tw_link` WHERE `status` = 1 AND `look_type` = 1 ORDER BY sort asc ,id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article` WHERE `type` = 'notice' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `name` = 'notice' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_adver` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tw_adver` WHERE `status` = 1 AND `look` = 0 AND `fenlei` = 0 ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: market F:\xampp\htdocs\myWork\changnei\Application\Home\Controller\IndexController.class.php Á¨¨ 109 Ë°å.
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='ÂÆòÊñπÂÖ¨Âëä' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='notice' and status=1 ) ORDER BY id desc LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='Êñ∞ÈóªËµÑËÆØ' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='news' and status=1 ) ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='‰∫§ÊòìÂÖ•Èó®' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='firstclass' and status=1 ) ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2018-06-20T21:12:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003832s ]
+SQL: SHOW COLUMNS FROM `tw_config` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tw_coin` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `tw_coin` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_market` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tw_market` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_article_type` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'Kline' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_article` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'Kline' LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'aboutus' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'aboutus' LIMIT 5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_link` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tw_link` WHERE `status` = 1 AND `look_type` = 1 ORDER BY sort asc ,id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article` WHERE `type` = 'notice' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `name` = 'notice' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_adver` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tw_adver` WHERE `status` = 1 AND `look` = 0 AND `fenlei` = 0 ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: market F:\xampp\htdocs\myWork\changnei\Application\Home\Controller\IndexController.class.php Á¨¨ 109 Ë°å.
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='ÂÆòÊñπÂÖ¨Âëä' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='notice' and status=1 ) ORDER BY id desc LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='Êñ∞ÈóªËµÑËÆØ' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='news' and status=1 ) ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='‰∫§ÊòìÂÖ•Èó®' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='firstclass' and status=1 ) ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2018-06-20T21:12:19+08:00 ] 127.0.0.1 /Trade/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003788s ]
+SQL: SHOW COLUMNS FROM `tw_config` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tw_coin` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tw_coin` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_market` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `tw_market` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_article_type` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'Kline' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_article` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'Kline' LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'aboutus' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'aboutus' LIMIT 5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_link` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tw_link` WHERE `status` = 1 AND `look_type` = 1 ORDER BY sort asc ,id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article` WHERE `type` = 'notice' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `name` = 'notice' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-06-20T21:12:19+08:00 ] 127.0.0.1 /Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003566s ]
+SQL: SHOW COLUMNS FROM `tw_config` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tw_coin` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `tw_coin` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_market` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tw_market` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_article_type` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'Kline' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_article` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'Kline' LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'aboutus' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'aboutus' LIMIT 5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_link` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tw_link` WHERE `status` = 1 AND `look_type` = 1 ORDER BY sort asc ,id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article` WHERE `type` = 'notice' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `name` = 'notice' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2018-06-20T21:12:20+08:00 ] 127.0.0.1 /Verify/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2018-06-20T21:12:24+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003845s ]
+SQL: SHOW COLUMNS FROM `tw_config` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tw_coin` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `tw_coin` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_market` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tw_market` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_article_type` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'Kline' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_article` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'Kline' LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'aboutus' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'aboutus' LIMIT 5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_link` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tw_link` WHERE `status` = 1 AND `look_type` = 1 ORDER BY sort asc ,id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article` WHERE `type` = 'notice' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `name` = 'notice' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tw_adver` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tw_adver` WHERE `status` = 1 AND `look` = 0 AND `fenlei` = 0 ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: market F:\xampp\htdocs\myWork\changnei\Application\Home\Controller\IndexController.class.php Á¨¨ 109 Ë°å.
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='ÂÆòÊñπÂÖ¨Âëä' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='notice' and status=1 ) ORDER BY id desc LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='Êñ∞ÈóªËµÑËÆØ' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='news' and status=1 ) ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='‰∫§ÊòìÂÖ•Èó®' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='firstclass' and status=1 ) ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2018-06-20T21:19:10+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002013s ]
+
+[ 2018-06-20T21:21:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004023s ]
+
+[ 2018-06-20T21:22:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003914s ]
+
+[ 2018-06-20T21:22:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003790s ]
+SQL: SHOW COLUMNS FROM `tw_config` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tw_coin` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tw_coin` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_market` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tw_market` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-06-20T21:23:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003870s ]
+SQL: SHOW COLUMNS FROM `tw_config` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tw_coin` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tw_coin` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_market` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tw_market` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_article_type` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'Kline' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'Kline' LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'aboutus' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'aboutus' LIMIT 5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_link` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tw_link` WHERE `status` = 1 AND `look_type` = 1 ORDER BY sort asc ,id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article` WHERE `type` = 'notice' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `name` = 'notice' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tw_adver` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tw_adver` WHERE `status` = 1 AND `look` = 0 AND `fenlei` = 0 ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: market F:\xampp\htdocs\myWork\changnei\Application\Home\Controller\IndexController.class.php Á¨¨ 109 Ë°å.
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='ÂÆòÊñπÂÖ¨Âëä' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='notice' and status=1 ) ORDER BY id desc LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='Êñ∞ÈóªËµÑËÆØ' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='news' and status=1 ) ORDER BY id desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='‰∫§ÊòìÂÖ•Èó®' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='firstclass' and status=1 ) ORDER BY id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2018-06-20T21:23:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003734s ]
+SQL: SHOW COLUMNS FROM `tw_config` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tw_coin` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `tw_coin` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_market` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tw_market` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tw_article_type` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'Kline' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_article` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'Kline' LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `shang` = 'aboutus' AND `footer` = 1 AND `status` = 1 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE `footer` = 1 AND `index` = 1 AND `status` = 1 AND `type` = 'aboutus' LIMIT 5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_link` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tw_link` WHERE `status` = 1 AND `look_type` = 1 ORDER BY sort asc ,id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article` WHERE `type` = 'notice' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE `name` = 'notice' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tw_adver` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tw_adver` WHERE `status` = 1 AND `look` = 0 AND `fenlei` = 0 ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: market F:\xampp\htdocs\myWork\changnei\Application\Home\Controller\IndexController.class.php Á¨¨ 109 Ë°å.
+SQL: SELECT * FROM `tw_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='ÂÆòÊñπÂÖ¨Âëä' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='notice' and status=1 ) ORDER BY id desc LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='Êñ∞ÈóªËµÑËÆØ' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='news' and status=1 ) ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article_type` WHERE ( title='‰∫§ÊòìÂÖ•Èó®' ) ORDER BY sort asc ,id asc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tw_article` WHERE ( type='firstclass' and status=1 ) ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+

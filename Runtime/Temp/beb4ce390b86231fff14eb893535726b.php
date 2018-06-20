@@ -1,0 +1,3 @@
+<?php
+//000000000000a:2:{i:0;a:13:{s:2:"id";s:2:"35";s:4:"name";s:5:"Kline";s:5:"title";s:10:"玩转K线";s:6:"remark";s:0:"";s:5:"index";s:1:"1";s:6:"footer";s:1:"1";s:5:"shang";s:0:"";s:7:"content";s:17:"<p>玩转K线</p>";s:4:"sort";s:1:"0";s:7:"addtime";s:10:"1511884800";s:7:"endtime";s:10:"1511884800";s:6:"status";s:1:"1";s:8:"title_en";s:6:"K line";}i:1;a:13:{s:2:"id";s:2:"27";s:4:"name";s:7:"aboutus";s:5:"title";s:12:"关于我们";s:6:"remark";s:0:"";s:5:"index";s:1:"1";s:6:"footer";s:1:"1";s:5:"shang";s:0:"";s:7:"content";s:22:"<p>关于我们。</p>";s:4:"sort";s:1:"1";s:7:"addtime";s:10:"1492790400";s:7:"endtime";s:10:"1492790400";s:6:"status";s:1:"1";s:8:"title_en";s:8:"About us";}}
+?>

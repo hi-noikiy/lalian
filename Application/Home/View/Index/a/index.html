@@ -1,0 +1,488 @@
+<include file="Public:header_new"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/news/style/animate.css">
+<style>
+.banner_bottom{width: 100%;background:rgba(0,0,0,0.5);position: absolute;bottom:0;left:0;padding:15px 0;}
+.p1{font-size:16px;line-height:20px;text-align: center;color:#4F5A7A;}
+.p2{font-size:20px;line-height:20px;color:rgb(153, 171, 191);margin-top:10px;text-shadow: 0 2px 4px rgba(0,0,0,0.50);text-align: center;}
+.section2{width:100%;background: #fff;}
+.hyjy{border:1px solid #7B8A9D;border-radius: 4px;width:250px;height: 40px;color:#99A6BF;text-align: center;line-height: 40px;font-size: 16px;margin-bottom: 20px;cursor: pointer;}
+</style>
+        <div class="banner" >
+        <!-- banner图轮播开始 -->
+          <div class="bd">
+            <ul>
+            <volist name="indexAdver" id="vo">
+              <if condition="$vo['url'] neq ''">
+                  <li onclick="window.open('{$vo['url']}')" style="height:640px;background: url({$vo.img}) top center no-repeat;"></li>
+              <else />
+                <li style="height:640px;background: url({$vo.img}) top center no-repeat;"></li>
+              </if>
+            </volist>
+            </ul>
+          </div>
+          <div class="hd">
+            <ul>
+            <volist name="indexAdver" id="vo">
+            <li></li>
+            </volist>
+            </ul>
+          </div>
+          <script>
+            jQuery(".banner").slide({mainCell:".bd ul",autoPlay:true,effect:"fold"});
+          </script>
+        <!--  banner图轮播结束 -->
+         <!--  无缝轮播开始 -->
+         <div class="banner_bottom">
+           <div class="scrollleft" style="overflow: hidden; position: relative;">
+    <ul style="margin: 0px; padding: 0px; overflow: hidden; position: relative; list-style: none; width: 1485px; left: -155px;">
+        <volist name="market_list" id="vo">
+        <li style="position: relative; overflow: hidden; float: left;">
+            <p class="p1">
+                {$vo['name']|chongzu} <span class="fudu fudu_d">{$vo['change']|NumToStr}%</span>
+            </p>
+            <p class="p2">
+                {$vo['new_price']|NumTofour}
+            </p>
+        </li>
+        </volist>
+    </ul>
+</div>
+</div>
+<style>
+/* scrollleft */
+.scrollleft {
+    width:100%;
+}
+.scrollleft li {
+    float:left;
+    display:inline;
+    width:155px;
+    padding:0 20px;
+    text-align:center;
+    line-height:19px;
+    border-right:1px solid #3a3c3e;
+}
+.scrollleft li .fudu{
+    display: inline-block;margin-left: 10px;color:#fff;font-size: 16px;
+}
+.scrollleft li .fudu_z{
+    color:#1fa72f;
+}
+.scrollleft li .fudu_d{
+    color:rgb(159,51,59);
+}
+</style>
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        $(".scrollleft").imgscroll({
+            speed: 40, //图片滚动速度
+            amount: 0, //图片滚动过渡时间
+            width: 1, //图片滚动步数
+            dir: "left" // "left" 或 "up" 向左或向上滚动
+        });
+
+        $(".scrolltop").imgscroll({
+            speed: 40, //图片滚动速度
+            amount: 0, //图片滚动过渡时间
+            width: 1, //图片滚动步数
+            dir: "up" // "left" 或 "up" 向左或向上滚动
+        });
+
+    });
+</script>
+<script>
+    $.fn.imgscroll = function(o){
+    var defaults = {
+        speed: 40,
+        amount: 0,
+        width: 1,
+        dir: "left"
+    };
+    o = $.extend(defaults, o);
+
+    return this.each(function(){
+        var _li = $("li", this);
+        _li.parent().parent().css({overflow: "hidden", position: "relative"}); //div
+        _li.parent().css({margin: "0", padding: "0", overflow: "hidden", position: "relative", "list-style": "none"}); //ul
+        _li.css({position: "relative", overflow: "hidden"}); //li
+        if(o.dir == "left") _li.css({float: "left"});
+
+        //初始大小
+        var _li_size = 0;
+        for(var i=0; i<_li.size(); i++)
+            _li_size += o.dir == "left" ? _li.eq(i).outerWidth(true) : _li.eq(i).outerHeight(true);
+
+        //循环所需要的元素
+        if(o.dir == "left") _li.parent().css({width: (_li_size*3)+"px"});
+        _li.parent().empty().append(_li.clone()).append(_li.clone()).append(_li.clone());
+        _li = $("li", this);
+
+        //滚动
+        var _li_scroll = 0;
+        function goto(){
+            _li_scroll += o.width;
+            if(_li_scroll > _li_size)
+            {
+                _li_scroll = 0;
+                _li.parent().css(o.dir == "left" ? { left : -_li_scroll } : { top : -_li_scroll });
+                _li_scroll += o.width;
+            }
+                _li.parent().animate(o.dir == "left" ? { left : -_li_scroll } : { top : -_li_scroll }, o.amount);
+        }
+
+        //开始
+        var move = setInterval(function(){ goto(); }, o.speed);
+        _li.parent().hover(function(){
+            clearInterval(move);
+        },function(){
+            clearInterval(move);
+            move = setInterval(function(){ goto(); }, o.speed);
+        });
+    });
+};
+</script>
+           <!--  无缝轮播结束 -->
+
+        </div>
+        <div class="section2">
+        <!-- tab切换开始 -->
+        <style>
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+.clearfix {
+    clear:both;
+    *zoom:1;
+}
+.show {
+    display:block!important;
+}
+.box {
+    width:100%;
+    margin:0 auto;
+    padding:30px 0 60px;
+}
+.ul_list {
+    width:1200px;
+    margin:0 auto;
+}
+.ul_list li {
+    float:left;
+    width:auto;
+    padding:0 17px;
+    text-align:center;
+    box-sizing:border-box;
+    cursor:pointer;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #e6e6e6;
+    background: #f9f9f9;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.ul_list li.active {
+    background: #fff;
+    color: #e8b342;
+    border-bottom-color: #fff;
+}
+.div_box {
+    width:1200px;
+    margin:0 auto;
+}
+.div_box .div_list {
+    display:none;
+    border: 1px solid #e6e6e6;
+    margin-top: -1px;
+}
+.div_box .div_list table tr th,.div_box .div_list table tr td{
+   background: #fff;
+    padding: 0px 26px;
+    border-top: 1px solid #f0f0f0;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    font-size: 12px;
+}
+.div_box .div_list table tr th{
+    color:#999;font-weight: normal;
+    border:none;
+}
+.div_box .div_list table tr:hover td{background-color: #fefcf6;}
+.div_box .div_list table tr td{color:#333;}
+.div_box .div_list table tr .die{color:#e21476;}
+.div_box .div_list table tr .zhang{color:#1fa72f;}
+.ul_list li .bg_image{display: inline-block;width:13px;height:13px;background: url('__PUBLIC__/Home/images/star.png') no-repeat;margin-right: 5px;background-size: 100%;vertical-align: middle;}
+.choose.active .bg_image{display: inline-block;width:13px;height:13px;background: url('__PUBLIC__/Home/images/star3.png') no-repeat;margin-right: 5px;background-size: 100%;vertical-align: middle;}
+</style>
+           <div class="box">
+    <ul class="ul_list clearfix">
+        <li class="choose"><!-- <img src="__PUBLIC__/Home/images/star1.png" alt="" style="height: 13px;vertical-align: middle;margin-right: 5px;"> -->
+        <span class="bg_image"></span>{$Think.lang.index_xz}</li>
+        <li class="active" style="border-right:0;border-left:0;">ZNC{$Think.lang.index_sc}</li>
+        <li>BTC{$Think.lang.index_sc}</li>
+    </ul>
+    <div class="div_box">
+     <div class="div_list">
+          <table>
+              <thead>
+                  <tr>
+                      <th width="200px;" style="text-align: center;">{$Think.lang.index_sc}</th>
+                      <th width="110px;" style="text-align: left;">{$Think.lang.index_zxj}</th>
+                      <th width="220px;">{$Think.lang.index_zd}</th>
+                      <th width="230px;">{$Think.lang.index_zgj}</th>
+                      <th width="230px;">{$Think.lang.index_zdj}</th>
+                      <th width="210px;">{$Think.lang.index_cjl}</th>
+                  </tr>
+              </thead>
+               <tbody id='zxdiv'>
+               </tbody>
+          </table>
+        </div>
+        <div class="div_list" style="display:block;">
+             <table>
+              <thead>
+                  <tr>
+                      <th width="200px;" style="text-align: center;">{$Think.lang.index_sc}</th>
+                      <th width="110px;" style="text-align: left;">{$Think.lang.index_zxj}</th>
+                      <th width="220px;">{$Think.lang.index_zd}</th>
+                      <th width="230px;">{$Think.lang.index_zgj}</th>
+                      <th width="230px;">{$Think.lang.index_zdj}</th>
+                      <th width="210px;">{$Think.lang.index_cjl}</th>
+                  </tr>
+              </thead>
+              <tbody id='zncdiv'>
+                  <volist name="market_list" id="vo">
+                  <if condition="houmark($vo['name']) eq 'znc'">
+
+                  <tr id="{$vo['id']}">
+                      <td width="200px;" style="text-align:left;">
+                      <span style="width:25px;float: left;margin-left: 20px;" onclick="bian(this)" data="1">
+                      <img src="__PUBLIC__/Home/images/star2.png" alt="" style="vertical-align: middle;width:15px;"></span><a href="/Trade/index/market/{$vo['name']}" style="color: #333;">{$vo['name']|chongzu}</a></td>
+                      <td width="110px;" style="text-align: left;">{$vo['new_price']|NumTofour}<span style="color: #999"></span></td>
+                      <td width="220px;" class="zhang">{$vo['change']|NumToStr}%</td>
+                      <td width="230px;">{$vo['max_price']|NumTofour}</td>
+                      <td width="230px;">{$vo['min_price']|NumTofour}</td>
+                      <td width="210px;">{$vo['volume']|NumTofour}</td>
+                  </tr>
+                  </if>
+                </volist>
+
+              </tbody>
+          </table>
+        </div>
+        <div class="div_list" >
+          <table>
+              <thead>
+                  <tr>
+                      <th width="200px;" style="text-align: center;">{$Think.lang.index_sc}</th>
+                      <th width="110px;" style="text-align: left;">{$Think.lang.index_zxj}</th>
+                      <th width="220px;">{$Think.lang.index_zd}</th>
+                      <th width="230px;">{$Think.lang.index_zgj}</th>
+                      <th width="230px;">{$Think.lang.index_zdj}</th>
+                      <th width="210px;">{$Think.lang.index_cjl}</th>
+                  </tr>
+              </thead>
+              <tbody id='btcdiv'>
+                <volist name="market_list" id="vo">
+                  <if condition="houmark($vo['name']) eq 'btc'">
+
+                  <tr id="{$vo['id']}">
+                      <td width="200px;" style="text-align:left;">
+                      <span style="width:25px;float: left;margin-left: 20px;" onclick="bian(this)" data="1">
+                      <img src="__PUBLIC__/Home/images/star2.png" alt="" style="vertical-align: middle;width:15px;"></span><a href="/Trade/index/market/{$vo['name']}"style="color: #333;">{$vo['name']|chongzu}</a></td>
+                      <td width="110px;" style="text-align: left;">{$vo['new_price']|NumTofour}<span style="color: #999"></span></td>
+                      <td width="220px;" class="zhang">{$vo['change']|NumToStr}%</td>
+                      <td width="230px;">{$vo['max_price']|NumTofour}</td>
+                      <td width="230px;">{$vo['min_price']|NumTofour}</td>
+                      <td width="210px;">{$vo['volume']|NumTofour}</td>
+                  </tr>
+                  </if>
+                </volist>
+              </tbody>
+          </table>
+        </div>
+
+    </div>
+</div>
+<script>
+    $(function() {
+    $('.box .ul_list li').on('click', function() {
+        $(this).addClass('active').siblings('li').removeClass('active');
+        //获取当前li的索引
+        var n = $(this).index();
+        $('.div_box .div_list').eq(n).show().siblings('.div_list').hide();
+    });
+});
+</script>
+<script type="text/javascript">
+    function bian(bian){
+
+        if($(bian).attr("data")==1){
+            $(bian).attr("data","2");
+            $(bian).children("img").attr("src","/Public/Home/images/star3.png");
+            //需要在自选中加上
+            //获取父类的id
+           if($(bian).parent().parent().parent().attr('id')!='zxdiv'){
+                trid=$(bian).parent().parent().attr('id');
+                $('#zxdiv').append("<tr id='"+trid+"'>"+$(bian).parent().parent().html()+"</tr>");
+           }
+        }else if($(bian).attr("data")==2){
+            $(bian).attr("data","1");
+            //需要在自选中加上
+            //获取父类的id
+            trid=$(bian).parent().parent().attr('id');
+           if($(bian).parent().parent().parent().attr('id')=='zxdiv'){
+              $(bian).parent().parent().remove();
+           }else{
+                //移除zxdiv的一行开始吧
+                var mailbody = document.getElementById("zxdiv");
+                var cell = document.getElementById(trid);
+                mailbody.removeChild(cell);
+
+
+           }
+           $("#"+trid+" td:eq(0) span").attr("data","1");
+           $("#"+trid+" td:eq(0) img").attr("src","/Public/Home/images/star2.png");
+        }
+
+    }
+</script>
+        <!--  tab切换结束 -->
+          <style>
+        .bottom_1{height:340px;position: relative;width: 100%;background: url(__PUBLIC__/Home/images/shutterstock.jpg) top center no-repeat fixed;background-size: cover;display: none;}
+        .mask{position: absolute;width: 100%;height: 340px;background: #213569;background-size: cover;z-index: 1;opacity: .9;}
+        .animated_img{height:382px;position: relative;top: -10px;left:30px;z-index: 2;}
+        .bottom_1 .left{width: 40%;position: relative;z-index: 2;float: right;color: #fff;}
+        .bottom_1 .pp1{font-size: 24px;color:#fff;margin-top:85px;margin-bottom:15px;}
+        .bottom_1 .pp2{font-size: 24px;color:#fff;}
+        .white_bottom{width:100%;background-color: #fff;padding:70px 0 50px;overflow: hidden;}
+        .white_bottom ul{width: 1200px;margin:0 auto;text-align: center;}
+        .white_bottom ul li{float: left;width: 400px;}
+        .white_bottom ul li .title{color:#888;margin-top:20px;font-size: 18px;margin-bottom: 10px;}
+        .white_bottom ul li .jieshao{color: #8c8990;line-height:22px;font-size: 14px;}
+        .white_bottom ul li .img{width:150px; transition: All 0.8s ease-in-out;-moz-transition:All 0.8s ease-in-out; -o-transition: All 0.8s ease-in-out;}
+        .white_bottom ul li .img:hover{ transform: rotate(360deg);-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);-o-transform: rotate(360deg);-ms-transform: rotate(360deg);}
+        .gonggao{width:100%;background-color:#fafafa;padding:50px 0;}
+        .gonggao .ul{width:1200px;margin:0 auto;overflow: hidden;}
+        .gonggao .ul .li{float: left;width:320px;margin-right:120px;}
+        .gonggao .ul .li .bg_img{display:inline-block;background: url('__PUBLIC__/Home/images/icon_gg.png') no-repeat;width: 20px;height: 20px;background-size: 20px auto;vertical-align: middle;margin-right: 10px;}
+        .gonggao .ul .li .bg_img1{background-position: 0px 0px;}
+        .gonggao .ul .li .bg_img2{background-position: 0px -42px;}
+        .gonggao .ul .li .bg_img3{background-position: 0px -21px;}
+        .gonggao .ul .li .more{float: right;font-size: 14px;color: #696777}
+        .gonggao .ul .li h4{font-size: 18px;font-weight: normal;padding:0px 0px 25px;}
+        .gonggao .ul .li:last-child{float: right;margin-right: 0;}
+        .gonggao .ul .li .ul_n{width: 100%;}
+        .gonggao .ul li .ul_n li{line-height: 34px;}
+        .gonggao .ul li .ul_n li a{color: #3f3d4d;font-size: 14px;}
+        .gonggao .ul li .ul_n li a .time{color: #a0a0ab;font-size: 14px;display: inline-block;width: 50px;margin-right: 5px;}
+        .gonggao .ul li a:hover{text-decoration: underline;}
+        .gonggao .ul li a:hover .time{text-decoration: none;}
+        </style>
+        <div class="bottom_1">
+            <div class="mask"></div>
+                <div style="width:1200px;margin: 0 auto;">
+                    <img class="animated fadeInLeft animated_img"  src="__PUBLIC__/Home/images/phone.png" alt="" >
+                <div class="left animated fadeInRight">
+                    <p class="pp1">致力于提供优质的币币交易</p>
+                    <p class="pp2">专业的数字货币钱包服务</p>
+                </div>
+                </div>
+        </div>
+        <div class="white_bottom">
+        <ul>
+            <li>
+                <img src="__PUBLIC__/Home/images/safe@2x.png" alt="" class="img">
+                <h5 class="title">{$Think.lang.index_aq}</h5>
+                <p class="jieshao">{$Think.lang.index_aq1}</p>
+                <p class="jieshao">{$Think.lang.index_aq2}</p>
+            </li>
+            <li>
+                <img src="__PUBLIC__/Home/images/specialty@2x.png" alt="" class="img">
+                <h5 class="title">{$Think.lang.index_zy}</h5>
+                <p class="jieshao">{$Think.lang.index_zy1}</p>
+                <p class="jieshao">{$Think.lang.index_zy2}</p>
+            </li>
+            <li>
+                <img src="__PUBLIC__/Home/images/easy@2x.png" alt="" class="img">
+                <h5 class="title">{$Think.lang.index_yy}</h5>
+                <p class="jieshao">{$Think.lang.index_yy1}</p>
+                <p class="jieshao">{$Think.lang.index_yy2}</p>
+            </li>
+        </ul>
+        </div>
+        <div class="gonggao">
+        <ul class="ul">
+          <li class="li">
+          <h4><span class="bg_img bg_img1"></span>
+                 <if condition="LANG_SET == 'en-us'">
+                    {$gfgonggao.title_en}
+                <else/>
+                     {$gfgonggao.title}
+                </if> <a href="{:U('Article/detail')}" class="more">{$Think.lang.Finance_gd}</a></h4>
+            <ul class="ul_n">
+                <volist name="gglist" id="vo">
+                    <li>
+                        <if condition="LANG_SET == 'en-us'">
+                             <a href="{:U('Article/detail',array('id'=>$vo['id']))}"><span class="time">[{$vo.addtime|timehs}]</span>{$vo.title_en|msubstr=0,30,'utf-8'}</a>
+                        <else/>
+                            <a href="{:U('Article/detail',array('id'=>$vo['id']))}"><span class="time">[{$vo.addtime|timehs}]</span>{$vo.title|msubstr=0,16,'utf-8'}</a>
+                        </if>
+
+                    </li>
+                </volist>
+          </ul>
+          </li>
+          <li class="li">
+          <h4><span class="bg_img bg_img2"></span>
+           <if condition="LANG_SET == 'en-us'">
+                    {$xwzx.title_en}
+                <else/>
+                     {$xwzx.title}
+                </if>
+                 <a href="{:U('Article/detail')}" class="more">{$Think.lang.Finance_gd}</a></h4>
+          <ul class="ul_n">
+            <volist name="xwlist" id="vo">
+                    <li>
+                        <if condition="LANG_SET == 'en-us'">
+                             <a href="{:U('Article/detail',array('id'=>$vo['id']))}"><span class="time">[{$vo.addtime|timehs}]</span>{$vo.title_en|msubstr=0,30,'utf-8'}</a>
+                        <else/>
+                            <a href="{:U('Article/detail',array('id'=>$vo['id']))}"><span class="time">[{$vo.addtime|timehs}]</span>{$vo.title|msubstr=0,16,'utf-8'}</a>
+                        </if>
+
+                    </li>
+                </volist>
+          </ul>
+          </li>
+          <li class="li">
+          <h4><span class="bg_img bg_img3"></span> <if condition="LANG_SET == 'en-us'">
+                    {$jyrm.title_en}
+                <else/>
+                     {$jyrm.title}
+                </if>
+            <a href="{:U('Article/detail')}" class="more">{$Think.lang.Finance_gd}</a></h4>
+          <ul class="ul_n">
+            <volist name="jylist" id="vo">
+                    <li>
+                        <if condition="LANG_SET == 'en-us'">
+                             <a href="{:U('Article/detail',array('id'=>$vo['id']))}"><span class="time">[{$vo.addtime|timehs}]</span>{$vo.title_en|msubstr=0,30,'utf-8'}</a>
+                        <else/>
+                            <a href="{:U('Article/detail',array('id'=>$vo['id']))}"><span class="time">[{$vo.addtime|timehs}]</span>{$vo.title|msubstr=0,16,'utf-8'}</a>
+                        </if>
+
+                    </li>
+                </volist>
+          </ul>
+          </li>
+        </ul>
+        </div>
+        </div>
+
+<include file="Public:footer_new"/>

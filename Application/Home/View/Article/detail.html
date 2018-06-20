@@ -1,0 +1,221 @@
+<include file="Public:header_new"/>
+<style>
+     ::-ms-clear,::-ms-reveal{display:none;}
+            .container {
+  width:100%;
+  height:100%;
+  margin:auto;
+}
+.leftsidebar_box {
+  width:300px;
+  overflow:visible !important;
+  position:absolute;
+  min-height:500px;
+}
+.line {
+  height:2px;
+  width:100%;
+}
+.leftsidebar_box dt{
+  width: 290px;
+  text-indent: 20px;
+  color:#4A596B;
+  font-size:16px;
+  line-height:36px;
+  cursor:pointer;
+  font-weight: bold;
+}
+.leftsidebar_box dd a {
+  display: inline-block;
+  color:#99A6BF;
+  line-height:34px;
+  font-size: 14px;
+  text-indent: 40px;
+}
+.leftsidebar_box dl dd:last-child {
+  padding-bottom:10px;
+}
+.fl_container{width:1200px;margin:20px auto;height:60px;background-color: rgba(0,0,0,0.7);font-size: 20px;color:#99a6bf;line-height:60px;text-indent: 20px;}
+.fl_container a{display: inline-block;line-height: 60px;font-size: 14px;}
+.newmain{width:1200px;height:auto;overflow:hidden;margin:10px auto 50px;}
+.newmain .nwmleft .textcenter{text-align:left;padding:0 20px;background-color:rgba(0,0,0,0.5);box-shadow: 0 3px 6px rgba(0, 0, 0, 0);font-weight: normal;font-size: 16px;height: 40px;line-height: 40px;color: #99A6BF;margin-bottom:0;}
+.newmain .nwmleft{width:960px;height:auto;overflow:hidden;float:right;color:#666;font-size: 14px;background: #2d2c3c;box-shadow: 0 2px 8px 0 rgba(0,0,0,0.16);min-height:750px;}
+.newmain .nwmleft .nwdtsbox{font-size:16px;color:#777;line-height:25px;margin-top:10px;padding:0 20px;}
+.newmain .nwmleft .nwdtsbox p{margin:10px 0;color:#4f576a;font-size: 14px;line-height: 20px;}
+.newmain .nwmleft .nwdtsbox img{max-width:100%;text-indent: 20px;}
+.newmain .nwmleft .nwlist li{width:830px;height:157px;padding:0 20px;margin-bottom:10px;background:#f6f6f6;overflow:hidden;}
+.newmain .nwmleft .nwlist li h3{margin-top:15px;}
+.newmain .nwmleft .nwlist li h3 a{color:#666;}
+.newmain .nwmleft .nwlist li .time{font-size:14px;color:#ccc;margin-top:5px;}
+.newmain .nwmleft .nwlist li .desc{font-size:16px;color:#999;line-height:24px;margin-top:20px;}
+.newmain .nwmleft .nwlist li .desc a{color:#999;}
+.newmain .nwmleft .nwlist li:hover{background:#ff9900;}
+.newmain .nwmleft .nwlist li:hover *,.newmain .nwmleft .nwlist li:hover * a{color:#fff;}
+.newmain .nwmleft .morelist{transition:all 0.2s;display:block;width:160px;height:40px;border-radius:5px;margin:0 auto;margin-top:40px;background:#f6f6f6;font-size:16px;color:#999;text-align:center;line-height:40px;}
+.newmain .nwmleft .morelist a{color:#999;display:block;width:100%;height:100%;}
+.newmain .nwmleft .morelist:hover{opacity:0.8;transition:all 0.2s;}
+.newmain .nwmright h3{height:60px;line-height:60px;border-bottom:1px solid #eee;color:#666;}
+.newmain .nwmright h3 img{vertical-align:middle;margin:0 10px 0 20px;}
+</style>
+ <div class="fl_container">帮助中心</div>
+ <div class="newmain">
+                    <div class="nwmleft">
+                <if condition="LANG_SET == 'en-us'">
+                <h2 class="textcenter">{$data.title_en}</h2>
+                <div class="nwdtsbox">
+                    {$data['content_en']}
+                </div>
+                <else/>
+                <h2 class="textcenter">{$data.title}</h2>
+                <div class="nwdtsbox">
+                    {$data['content']}
+                </div>
+                </if>
+                <if condition="$data.downhref neq ''">
+                <a href="javascript:down('{$data.downhref}')">下载</a>
+                </if>
+            </div>
+            <script type="text/javascript">
+              function down(path){
+                location.href="/Ajax/down?path="+path;
+                    
+              }
+            </script>
+            <div class="nwmright">
+            <h3 style="height:40px;line-height:40px;background-color:rgba(0,0,0,0.7);font-size: 16px;padding-left: 20px;color:#99A6BF;border-bottom:0;font-weight: normal;box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);">问题分类</h3>
+            <!--  左边导航开始 -->
+            <style>
+   .b-faqpage__item{
+    overflow: hidden;
+   }
+   .b-faqpage__item-head{
+    position: relative;
+    cursor: pointer;
+  }
+  .b-faqpage__item-head_openclose{
+    display: block;
+    position: absolute;
+    left:10px;
+    top:11px;
+    width: 18px;
+    height: 18px;
+  }
+  .b-faqpage__item-head_openclose:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 4px;
+    top: 8px;
+    width: 10px;
+    height: 2px;
+    background-color:#99A6BF;
+  }
+  .b-faqpage__item-head_openclose:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 8px;
+    top: 4px;
+    width: 2px;
+    height: 10px;
+    background-color:#99A6BF;
+}
+  .b-faqpage{margin:0 auto;color:#23242e;font-size:12px;line-height:14px}
+.b-faqpage__item{overflow:hidden;}
+.b-faqpage__item-body{display:none;padding:10px 20px 10px 30px;line-height: 18px;font-size: 13px;background:rgba(0,0,0,0.4);min-height:25px;}
+.b-faqpage__item-body ul li{line-height: 25px;}
+.b-faqpage__item-body a{color:#666c7b;}
+.b-faqpage__item.active .b-faqpage__item-body{display:block;}
+.b-faqpage__item-head{padding:10px 10px 0px 10px;position:relative;cursor:pointer;background-color: rgba(0,0,0,0.5);text-indent: 20px;}
+.b-faqpage__item-head_label{font-size:14px;color:#99A6BF;line-height:20px;text-transform:uppercase}
+.b-faqpage__item.active .b-faqpage__item-head_openclose:after{display:none}
+.b-faqpage__item-bottom{border-bottom: 1px dashed #384157;padding-bottom: 10px;}
+</style>
+ <div class="b-page__wrapper">
+     <div class="b-page__content ">
+      <div class="b-page__content-wrapper">
+       <div class="b-faqpage">
+
+        <volist name="ArticleTypeList" id="vo">
+        <div class="b-faqpage__item">
+         <div class="b-faqpage__item-head">
+          <div class="b-faqpage__item-bottom">
+          <span class="b-faqpage__item-head_openclose"></span>
+            <span class="b-faqpage__item-head_label">
+                <if condition="LANG_SET == 'en-us'">
+                    {$vo.title_en}
+                <else/>
+                     {$vo.title}
+                </if>
+            </span>
+          </div>
+         </div>
+         <div class="b-faqpage__item-body">
+            <ul class="b-faqpage__list1">
+                <volist name="vo['child']" id="f">
+                    <li class="b-faqpage__list1-item"><span class="b-faqpage__list1-text">
+                        <if condition="LANG_SET == 'en-us'">
+                             <a href="{:U('Article/detail',array('id'=>$f['id']))}">{$f.title_en|msubstr=0,30,'utf-8'}</a>
+                        <else/>
+                            <a href="{:U('Article/detail',array('id'=>$f['id']))}">{$f.title|msubstr=0,16,'utf-8'}</a>
+                        </if>
+                    </span></li>
+                </volist>
+            </ul>
+         </div>
+        </div>
+        </volist>
+        </div>
+
+ <script> $(document).ready(function () {
+                    $(document).on('click', '.b-faqpage__item-head', function () {
+                        $(this).parents('.b-faqpage__item').toggleClass('active');
+                    });
+                });
+</script>
+</div>
+            <!-- 左边导航结束 -->
+             </div>
+               <!--  <div class="container"> -->
+  <!-- <div class="leftsidebar_box">
+
+    <volist name="ArticleTypeList" id="vo">
+        <dl class="system_log">
+        <if condition="LANG_SET == 'en-us'">
+         <dt>  {$vo.title_en} <span style="float: right;">></span></dt>
+        <else/>
+          <dt>  {$vo.title} <span style="float: right;">></span></dt>
+         </if>
+          <volist name="vo['child']" id="f">
+            <if condition="LANG_SET == 'en-us'">
+               <dd <eq name="data.type" value="$f['type']">style="display:block;"<else/>style="display:none;"</eq> > <a href="{:U('Article/detail',array('id'=>$f['id']))}"><eq name="data.id" value="$f['id']"><font style="    background: #059FF5;color: #EBEBEB;display:block;width:298px;line-height: 34px;text-indent: 40px;">{$f.title_en|msubstr=0,30,'utf-8'}</font><else/>{$f.title_en|msubstr=0,30,'utf-8'}</eq></a> </dd>
+            <else/>
+               <dd <eq name="data.type" value="$f['type']">style="display:block;"<else/>style="display:none;"</eq> > <a href="{:U('Article/detail',array('id'=>$f['id']))}"><eq name="data.id" value="$f['id']"><font style="    background: #059FF5;color: #EBEBEB;display:block;width:298px;line-height: 34px;text-indent: 40px;">{$f.title|msubstr=0,16,'utf-8'}</font><else/>{$f.title|msubstr=0,16,'utf-8'}</eq></a> </dd>
+            </if>
+          </volist>
+        </dl>
+    </volist>
+  </div> -->
+</div>
+</div>
+</div>
+
+
+        <script>
+          var a_id = {$a_id};
+          //菜单高亮
+          $('#article_'+a_id).addClass('on');
+        </script>
+ <script>
+$(function() {
+    $(".leftsidebar_box dt").click(function() {
+        $(".leftsidebar_box dd").hide();
+        $(this).parent().find('dd').removeClass("menu_chioce");
+        $(".menu_chioce").slideUp();
+        $(this).parent().find('dd').slideToggle();
+        $(this).parent().find('dd').addClass("menu_chioce");
+    });
+})
+</script>
+
+<include file="Public:footer_new"/>
